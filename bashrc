@@ -134,7 +134,6 @@ if ! shopt -oq posix; then
 fi
 
 set -o vi
-setxkbmap -option caps:swapescape
 source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
 TERM=xterm-256color
 export GITAWAREPROMPT=~/.bash/git-aware-prompt
