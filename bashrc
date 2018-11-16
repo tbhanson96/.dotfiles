@@ -94,7 +94,7 @@ alias l='ls -CF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\' 's/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -110,10 +110,6 @@ alias sshews='ssh tbhanso2@linux.ews.illinois.edu'
 alias ..='cd ..'
 alias open='xdg-open'
 alias xclip="xclip -selection c"
-alias AStudio=$HOME/.local/share/android-studio/bin/studio.sh
-alias gdrive=gdrive-linux-x64
-alias rubymine='$HOME/bin/RubyMine-2017.1.4/bin/rubymine.sh'
-alias slack='slack-desktop'
 alias sync_music='gdrive sync upload $HOME/Music 0B3ZYBlQbUuWsaDhGM192N3FjeXc'
 alias sync_tb='gdrive sync upload $HOME/Documents/Textbooks 1ozermYmXDdwFenYIkov_BW8h6kr5Gnm5'
 alias sync_eb='gdrive sync upload $HOME/Documents/Ebooks/ 1hXjZksdEFhDZBgpBM3PLcH0S591E0A_9'

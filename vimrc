@@ -9,7 +9,9 @@ set number
 set tabstop=4
 set shiftwidth=4
 let mapleader = ","
-nnoremap <leader>ev :vsplit $MYVIMRC<cr>
-nnoremap <leader>sv :source $MYVIMRC<cr>
+nnoremap <leader>ev :vsplit ~/dotfiles/vimrc<cr>
+nnoremap <leader>sv :source ~/dotfiles/vimrc<cr>
 nmap cp :! cat % \| xclip -selection c<Enter>
+nnoremap <leader>n :NERDTreeToggle<cr>
+nnoremap <leader>a <C-W><C-W>
 
