@@ -136,9 +136,10 @@ export GITAWAREPROMPT=~/.bash/git-aware-prompt
 source "${GITAWAREPROMPT}/main.sh"
 
 export PATH=$PATH:$HOME/bin
+export MYVIMRC=$HOME/dotfiles/bashrc
 export TB=$HOME/Documents/Textbooks
-export bashrc=~/dotfiles/bashrc
-export vimrc=~/dotfiles/vimrc
+export bashrc=$HOME/dotfiles/bashrc
+export vimrc=$HOME/dotfiles/vimrc
 export TEXMFHOME=$HOME/.texmf
 export EDITOR=vim
 
