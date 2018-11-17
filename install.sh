@@ -5,7 +5,7 @@ git clone git://github.com/jimeh/git-aware-prompt.git
 cd ~
 mkdir -p ~/.vim/autoload ~/.vim/bundle
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-git clone https://github.com/w0rp/ale.git ~/.vim/bundle/gruvbox
+git clone https://github.com/w0rp/ale.git ~/.vim/bundle/ale
 git clone https://github.com/morhetz/gruvbox.git ~/.vim/bundle/gruvbox
 git clone https://github.com/vim-airline/vim-airline.git ~/.vim/bundle/vim-airline
 git clone https://github.com/airblade/vim-gitgutter.git ~/.vim/bundle/vim-gitgutter
