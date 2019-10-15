@@ -12,8 +12,8 @@ git clone https://github.com/airblade/vim-gitgutter.git ~/.vim/bundle/vim-gitgut
 git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
 git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 git clone https://github.com/briancollins/vim-jst.git ~/.vim/bundle/vim-jst
-echo "so ~/dotfiles/vimrc" >> ~/.vimrc
-echo "source-file ~/dotfiles/tmux.conf" >> ~/.tmux.conf
-echo "source ~/dotfiles/bashrc" >> ~/.bashrc
-echo -e "[include]\n\tpath = ~/dotfiles/gitconfig" >> ~/.gitconfig
-source ~/dotfiles/bashrc
+echo "so ~/.dotfiles/vimrc" >> ~/.vimrc
+echo "source-file ~/.dotfiles/tmux.conf" >> ~/.tmux.conf
+echo "source ~/.dotfiles/bashrc" >> ~/.bashrc
+echo -e "[include]\n\tpath = ~/.dotfiles/gitconfig" >> ~/.gitconfig
+source ~/.dotfiles/bashrc
