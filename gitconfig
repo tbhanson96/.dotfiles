@@ -1,9 +1,7 @@
-[user]
-	name = tbhanson96
-	email = tbh20715@gmail.com
 [alias]
 	ci = commit
     co = checkout
     st = status
     hist = "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+    refresh = fetch origin master:master
 
