@@ -36,10 +36,10 @@ alias xclip="xclip -selection c"
 alias sync_music='gdrive sync upload $HOME/Music 0B3ZYBlQbUuWsaDhGM192N3FjeXc'
 alias sync_tb='gdrive sync upload $HOME/Documents/Textbooks 1ozermYmXDdwFenYIkov_BW8h6kr5Gnm5'
 alias sync_eb='gdrive sync upload $HOME/Documents/Ebooks/ 1hXjZksdEFhDZBgpBM3PLcH0S591E0A_9'
-alias sshhome='ssh tim@hansonserver.ddns.net'
-alias sshfshome='sshfs tim@hansonserver.ddns.net:/home/tim/ home_mnt/'
-alias rsync_eb='rsync -azv /home/tim/Documents/Ebooks/ tim@hansonserver.ddns.net:~/Documents/Ebooks/'
-alias rsync_tb='rsync -azv /home/tim/Documents/Textbooks/ tim@hansonserver.ddns.net:~/Documents/Textbooks/'
+alias sshhome='ssh tim@timbhanson.com'
+alias sshfshome='sshfs tim@timbhanson.com:/home/tim/ home_mnt/'
+alias rsync_eb='rsync -azv /home/tim/Documents/Ebooks/ tim@timbhanson.com:~/Documents/Ebooks/'
+alias rsync_tb='rsync -azv /home/tim/Documents/Textbooks/ tim@timbhanson.com:~/Documents/Textbooks/'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
