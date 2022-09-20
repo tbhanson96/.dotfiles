@@ -31,15 +31,20 @@ fi
 alias tmux='tmux -2'
 alias sshews='ssh tbhanso2@linux.ews.illinois.edu'
 alias ..='cd ..'
-alias open='xdg-open'
-alias xclip="xclip -selection c"
-alias sync_music='gdrive sync upload $HOME/Music 0B3ZYBlQbUuWsaDhGM192N3FjeXc'
-alias sync_tb='gdrive sync upload $HOME/Documents/Textbooks 1ozermYmXDdwFenYIkov_BW8h6kr5Gnm5'
-alias sync_eb='gdrive sync upload $HOME/Documents/Ebooks/ 1hXjZksdEFhDZBgpBM3PLcH0S591E0A_9'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
 alias sshhome='ssh tim@timbhanson.com'
-alias sshfshome='sshfs tim@timbhanson.com:/home/tim/ home_mnt/'
+alias sshfshome='mkdir -p ./home_mnt && sshfs tim@timbhanson.com:/home/tim/ home_mnt/'
 alias rsync_eb='rsync -azv /home/tim/Documents/Ebooks/ tim@timbhanson.com:~/Documents/Ebooks/'
 alias rsync_tb='rsync -azv /home/tim/Documents/Textbooks/ tim@timbhanson.com:~/Documents/Textbooks/'
+
+# functions
+
+function speed_test () {
+    wget -O /dev/null --show-progress http://212.183.159.230/1GB.zip
+}
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
