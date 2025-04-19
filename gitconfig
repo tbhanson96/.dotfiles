@@ -4,6 +4,7 @@
     st = status
     hist = "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
     refresh = fetch origin master:master
+    pr = pull --rebase
 [push]
     autoSetupRemote = true
 
