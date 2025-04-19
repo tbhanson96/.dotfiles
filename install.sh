@@ -1,7 +1,7 @@
 cd ~
 mkdir .bash
 cd .bash
-git clone git://github.com/jimeh/git-aware-prompt.git
+git clone https://github.com/jimeh/git-aware-prompt.git
 cd ~
 mkdir -p ~/.vim/autoload ~/.vim/bundle
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
